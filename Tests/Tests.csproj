@@ -30,7 +30,19 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\ExtractionSorter\Extractor.csproj" />
+    <ProjectReference Include="..\ExtractionSorter\Extraction.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Update="Data\NotAnImage.txt">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Update="Data\Tui-CR2.CR2">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Update="Data\Tui-JPG.JPG">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
   </ItemGroup>
 
 </Project>

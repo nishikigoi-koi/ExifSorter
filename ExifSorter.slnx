@@ -1,5 +1,5 @@
 <Solution>
   <Project Path="ExifSorter/ExifSorter.csproj" />
-  <Project Path="ExtractionSorter/Extractor.csproj" Id="f07bfa53-c4da-4efb-8517-90baf5f2d093" />
+  <Project Path="ExtractionSorter/Extraction.csproj" Id="f07bfa53-c4da-4efb-8517-90baf5f2d093" />
   <Project Path="Tests/Tests.csproj" />
 </Solution>
